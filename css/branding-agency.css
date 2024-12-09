@@ -2,32 +2,17 @@
     Crafto - Branding agency
 ====================================== */
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* variable */
 :root {     
     --base-color: #e99022; 
     --medium-gray: #7b7a7a;
-    --dark-gray: #1d1d1d;  
+    --dark-gray: #0a0a0a;  
     --charcoal-blue: #232323;
-    --alt-font: 'Space Grotesk', sans-serif;
-    --primary-font: 'Inter', sans-serif;
+    --alt-font: "Poppins", sans-serif;
+    --primary-font: 'Poppins', sans-serif;
 }
-body {
-    line-height: 30px;
-}
-a:hover {
-    color: var(--dark-gray);
-}
-h1, .h1 {
-    line-height: 4rem;
-}
-h3, .h3 { 
-    line-height: 2.813rem;
-}
-h4 {
-    line-height: 2.6rem;
-}
+
 /* header */
 .navbar .navbar-nav .nav-link {
     font-size: 18px;
@@ -78,7 +63,7 @@ header .navbar-brand img {
     padding: 15px 30px;
 }
 .btn-gradient-fuel-yellow-blue {
-    background-image: linear-gradient(to right, #d18215, #3797a1, #d18215);
+    background-image: linear-gradient(to right, #7c2cc5, #e53a56, #ffc107);
     background-size: 200% auto;
     color: var(--white);
 }
@@ -198,4 +183,16 @@ footer .footer-logo img {
     .md-top-auto {
         top: auto;
     }
+}
+/* rinshad style */
+.custom-btn {
+    background-image: linear-gradient(to right, #ffc107, #f5534f, #ffc107);
+    background-size: 200% auto;
+    color: var(--white);
+}
+.custom-btn:hover{
+    color: var(--white);
+}
+.text-gradient-base-color-custom {
+    background-image: linear-gradient(to right, #661aff, #661aff, #661aff);
 }
